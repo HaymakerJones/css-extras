@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TranslucentBordersComponent } from './translucent-borders/translucent-borders.component';
+import { MultiBorderComponent } from './multi-border/multi-border.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TranslucentBordersComponent,
+    MultiBorderComponent
   ],
   imports: [
     BrowserModule

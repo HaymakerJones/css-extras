@@ -1,0 +1,32 @@
+@import '../shared/grids.scss';
+
+.main {
+    @include main-grid;
+    grid-gap: 3em;
+    margin: 0 20px;
+}
+
+.multi-outline {
+    grid-column: 1/2;
+    background-color: yellow;
+    box-shadow: 0 0 0 10px #655,
+                0 0 0 15px #993,
+                0 2px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.multi-outline-inset {
+    grid-column: 1/2;
+    padding: 30px;
+    background-color: red;
+    box-shadow: inset 0 0 0 10px green,
+                0 0 0 15px blue,
+                0 2px 5px 15px rgba(0, 0, 0, 0.6); 
+}
+
+.outline-property {
+    grid-column: 1/2;
+    background: orange;
+    border: 10px solid #655;
+    outline: 2px dashed deeppink;
+    outline-offset: -20px;
+}
