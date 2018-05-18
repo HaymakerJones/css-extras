@@ -1,0 +1,23 @@
+@import '../shared/grids.scss';
+
+.main {
+    @include main-grid;
+}
+
+.example {
+    background: url( '/assets/images/mightyMouse.jpg' ) no-repeat bottom right #58a;
+    background-origin: content-box;
+
+    height: 20em;
+    padding: 10px;
+    color: white;
+}
+
+.example2 {
+    background: url( '/assets/images/mightyMouse.jpg' ) no-repeat center center #80a;
+    background-origin: content-box;
+
+    height: 20em;
+    padding: 10px;
+    color: white;
+}
