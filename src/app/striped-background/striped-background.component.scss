@@ -1,0 +1,33 @@
+@import '../shared/grids.scss';
+
+.main {
+    @include main-grid;
+}
+
+.horizontal {
+    height: 200px;
+    background: linear-gradient( #fb3 50%, #58a 0);
+    background-size: 100% 50px;
+}
+
+.vertical {
+    height: 200px;
+    background: linear-gradient( to right, #fb3 50%, #58a 0);
+    background-size: 50px 100%;
+}
+
+.diagonal {
+    height: 200px;
+    background: repeating-linear-gradient(45deg, #fb3, #fb3 15px, #58a 0, #58a 30px);
+}
+
+.subtle {
+    height: 200px;
+    background: #56a;
+    background-image: repeating-linear-gradient( 
+        30deg,
+        hsla( 0, 0%, 100%, .1 ),
+        hsla( 0, 0%, 100%, .1 ) 15px,
+        transparent 0, transparent 30px
+    );
+}
