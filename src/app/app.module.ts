@@ -8,6 +8,7 @@ import { MultiBorderComponent } from './multi-border/multi-border.component';
 import { FlexBackgroundPositionComponent } from './flex-background-position/flex-background-position.component';
 import { StripedBackgroundComponent } from './striped-background/striped-background.component';
 import { ComplexBackgroundComponent } from './complex-background/complex-background.component';
+import { RandomBackgroundsComponent } from './random-backgrounds/random-backgrounds.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ComplexBackgroundComponent } from './complex-background/complex-backgro
     MultiBorderComponent,
     FlexBackgroundPositionComponent,
     StripedBackgroundComponent,
-    ComplexBackgroundComponent
+    ComplexBackgroundComponent,
+    RandomBackgroundsComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,12 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+.random {
+  height: 200px;
+  background: #f0e2db;
+  background-image: -webkit-linear-gradient(left, #fb3 11px, transparent 0), -webkit-linear-gradient(left, #ab4 23px, transparent 0), -webkit-linear-gradient(left, #655 41px, transparent 0);
+  background-image: -o-linear-gradient(left, #fb3 11px, transparent 0), -o-linear-gradient(left, #ab4 23px, transparent 0), -o-linear-gradient(left, #655 41px, transparent 0);
+  background-image: linear-gradient(90deg, #fb3 11px, transparent 0), linear-gradient(90deg, #ab4 23px, transparent 0), linear-gradient(90deg, #655 41px, transparent 0);
+  background-size: 41px 100%, 61px 100%, 83px 100%; }
