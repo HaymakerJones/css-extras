@@ -1,0 +1,16 @@
+@mixin polka-dot( $size, $dot, $base, $accent ) {
+    background: $base;
+    background-image: 
+        radial-gradient( $accent $dot, transparent 0 ),
+        radial-gradient( $accent $dot, transparent 0 );
+    background-size: $size $size;
+    background-position: 0 0, $size/2 $size/2;
+}
+
+@mixin plaid( $size, $deg, $rectangle, $base, $accent ) {
+    background: $base;
+    background-image:
+        linear-gradient( $deg, $accent $rectangle, transparent 0),
+        linear-gradient( $accent $rectangle, transparent 0);
+    background-size: $size $size;
+}   

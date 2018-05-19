@@ -3,3 +3,9 @@
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(50px, auto);
 }
+
+@mixin custom-grid( $col, $rHeight, $gap ) {
+    display: grid;
+    grid-template-columns: repeat( $cols, 1fr );
+    grid-auto-rows: minmax( 50px, auto );
+}

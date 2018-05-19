@@ -7,6 +7,7 @@ import { TranslucentBordersComponent } from './translucent-borders/translucent-b
 import { MultiBorderComponent } from './multi-border/multi-border.component';
 import { FlexBackgroundPositionComponent } from './flex-background-position/flex-background-position.component';
 import { StripedBackgroundComponent } from './striped-background/striped-background.component';
+import { ComplexBackgroundComponent } from './complex-background/complex-background.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { StripedBackgroundComponent } from './striped-background/striped-backgro
     TranslucentBordersComponent,
     MultiBorderComponent,
     FlexBackgroundPositionComponent,
-    StripedBackgroundComponent
+    StripedBackgroundComponent,
+    ComplexBackgroundComponent
   ],
   imports: [
     BrowserModule

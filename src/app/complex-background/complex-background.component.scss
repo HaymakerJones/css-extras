@@ -1,0 +1,21 @@
+@import '../shared/grids.scss';
+@import '../shared/backgrounds.scss';
+
+.main {
+    @include main-grid;
+}
+
+.grid-pattern {
+    height: 200px;
+    // background: white;
+    // background-image:
+    //     linear-gradient( 90deg, rgba(200, 0, 0, 0.5) 50%, transparent 0 ),
+    //     linear-gradient( rgba(200, 0, 0, 0.5) 50%, transparent 0 );
+    // background-size: 30px 30px; 
+    @include plaid( 30px, 90deg, 50%, white, rgba( 200, 0, 0, 0.5 ) );
+}
+
+.polka-dot {
+    height: 200px;
+    @include polka-dot( 30px, 30%, #655, tan );
+}

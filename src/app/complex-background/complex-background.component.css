@@ -1,0 +1,22 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+.grid-pattern {
+  height: 200px;
+  background: white;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(200, 0, 0, 0.5)), color-stop(0, transparent)), -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(200, 0, 0, 0.5)), color-stop(0, transparent));
+  background-image: -webkit-linear-gradient(left, rgba(200, 0, 0, 0.5) 50%, transparent 0), -webkit-linear-gradient(rgba(200, 0, 0, 0.5) 50%, transparent 0);
+  background-image: -o-linear-gradient(left, rgba(200, 0, 0, 0.5) 50%, transparent 0), -o-linear-gradient(rgba(200, 0, 0, 0.5) 50%, transparent 0);
+  background-image: linear-gradient(90deg, rgba(200, 0, 0, 0.5) 50%, transparent 0), linear-gradient(rgba(200, 0, 0, 0.5) 50%, transparent 0);
+  background-size: 30px 30px; }
+
+.polka-dot {
+  height: 200px;
+  background: #655;
+  background-image: -webkit-radial-gradient(tan 30%, transparent 0), -webkit-radial-gradient(tan 30%, transparent 0);
+  background-image: -o-radial-gradient(tan 30%, transparent 0), -o-radial-gradient(tan 30%, transparent 0);
+  background-image: radial-gradient(tan 30%, transparent 0), radial-gradient(tan 30%, transparent 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px; }
