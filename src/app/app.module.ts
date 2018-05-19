@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AppRoutingModule } from './app-routing';
+
 
 import { AppComponent } from './app.component';
 import { TranslucentBordersComponent } from './translucent-borders/translucent-borders.component';
@@ -10,6 +12,9 @@ import { StripedBackgroundComponent } from './striped-background/striped-backgro
 import { ComplexBackgroundComponent } from './complex-background/complex-background.component';
 import { RandomBackgroundsComponent } from './random-backgrounds/random-backgrounds.component';
 import { ContinuousImageBordersComponent } from './continuous-image-borders/continuous-image-borders.component';
+import { BackgroundsComponent } from './backgrounds/backgrounds.component';
+import { ShapesComponent } from './shapes/shapes.component';
+
 
 
 @NgModule({
@@ -21,9 +26,13 @@ import { ContinuousImageBordersComponent } from './continuous-image-borders/cont
     StripedBackgroundComponent,
     ComplexBackgroundComponent,
     RandomBackgroundsComponent,
-    ContinuousImageBordersComponent
+    ContinuousImageBordersComponent,
+    BackgroundsComponent,
+    ShapesComponent,
+
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule
   ],
   providers: [],

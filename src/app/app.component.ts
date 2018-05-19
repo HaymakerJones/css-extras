@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  navItems = [
+    { label: 'Backgrounds', path: '/backgrounds' },
+    { label: 'Shapes', path: '/shapes' },
+  ];
 }
