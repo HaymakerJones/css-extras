@@ -9,6 +9,7 @@ import { FlexBackgroundPositionComponent } from './flex-background-position/flex
 import { StripedBackgroundComponent } from './striped-background/striped-background.component';
 import { ComplexBackgroundComponent } from './complex-background/complex-background.component';
 import { RandomBackgroundsComponent } from './random-backgrounds/random-backgrounds.component';
+import { ContinuousImageBordersComponent } from './continuous-image-borders/continuous-image-borders.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { RandomBackgroundsComponent } from './random-backgrounds/random-backgrou
     FlexBackgroundPositionComponent,
     StripedBackgroundComponent,
     ComplexBackgroundComponent,
-    RandomBackgroundsComponent
+    RandomBackgroundsComponent,
+    ContinuousImageBordersComponent
   ],
   imports: [
     BrowserModule

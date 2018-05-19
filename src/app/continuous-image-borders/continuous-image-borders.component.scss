@@ -1,0 +1,14 @@
+@import '../shared/grids.scss';
+
+.main {
+    @include main-grid;
+}
+
+.imageBorder {
+    padding: 2em;
+    border: 1em solid transparent;
+    background: linear-gradient(white, white),
+    url('/assets/images/background2.jpg');
+    background-size: cover;
+    background-clip: padding-box, border-box;
+}
