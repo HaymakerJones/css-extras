@@ -1,0 +1,37 @@
+@import '../../shared/grids.scss';
+
+.main {
+    margin-top: 3em;
+    @include main-grid;
+}
+
+$height: 5em;
+$width: 10em;
+
+.full {
+    height: $height;
+    width: $width;
+    border-radius: 50%;
+    background: blue;
+}
+
+.half-vertical {
+    height: $height;
+    width: $width;
+    border-radius: 50% / 100% 100% 0 0;
+    background: red;
+}
+
+.half-horizontal {
+    height: $height;
+    width: $width;
+    border-radius: 100% 0 0 100% / 50%;
+    background: green;
+}
+
+.quarter {
+    height: $height;
+    width: $width;
+    background: pink;
+    border-radius: 100% 0 0 0;
+}

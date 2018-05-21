@@ -14,6 +14,7 @@ import { RandomBackgroundsComponent } from './random-backgrounds/random-backgrou
 import { ContinuousImageBordersComponent } from './continuous-image-borders/continuous-image-borders.component';
 import { BackgroundsComponent } from './backgrounds/backgrounds.component';
 import { ShapesComponent } from './shapes/shapes.component';
+import { FlexibleEllipseComponent } from './shapes/flexible-ellipse/flexible-ellipse.component';
 
 
 
@@ -29,6 +30,7 @@ import { ShapesComponent } from './shapes/shapes.component';
     ContinuousImageBordersComponent,
     BackgroundsComponent,
     ShapesComponent,
+    FlexibleEllipseComponent,
 
   ],
   imports: [
