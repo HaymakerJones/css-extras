@@ -6,8 +6,9 @@
 .button {
   position: relative;
   padding: .5em 1em;
+  margin: 5em 5em;
+  width: 50%;
   border: 0;
-  margin: .5em;
   background: transparent;
   color: white; }
 
