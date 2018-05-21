@@ -15,6 +15,7 @@ import { ContinuousImageBordersComponent } from './continuous-image-borders/cont
 import { BackgroundsComponent } from './backgrounds/backgrounds.component';
 import { ShapesComponent } from './shapes/shapes.component';
 import { FlexibleEllipseComponent } from './shapes/flexible-ellipse/flexible-ellipse.component';
+import { ParallelogramComponent } from './shapes/parallelogram/parallelogram.component';
 
 
 
@@ -31,6 +32,7 @@ import { FlexibleEllipseComponent } from './shapes/flexible-ellipse/flexible-ell
     BackgroundsComponent,
     ShapesComponent,
     FlexibleEllipseComponent,
+    ParallelogramComponent,
 
   ],
   imports: [
