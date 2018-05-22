@@ -16,6 +16,7 @@ import { BackgroundsComponent } from './backgrounds/backgrounds.component';
 import { ShapesComponent } from './shapes/shapes.component';
 import { FlexibleEllipseComponent } from './shapes/flexible-ellipse/flexible-ellipse.component';
 import { ParallelogramComponent } from './shapes/parallelogram/parallelogram.component';
+import { DiamondImageComponent } from './shapes/diamond-image/diamond-image.component';
 
 
 
@@ -33,6 +34,7 @@ import { ParallelogramComponent } from './shapes/parallelogram/parallelogram.com
     ShapesComponent,
     FlexibleEllipseComponent,
     ParallelogramComponent,
+    DiamondImageComponent,
 
   ],
   imports: [
