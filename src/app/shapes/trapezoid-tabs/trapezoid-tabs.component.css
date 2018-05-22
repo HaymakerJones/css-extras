@@ -1,0 +1,32 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+nav a {
+  position: relative;
+  padding: .3em 1em 0; }
+
+nav a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: #ccc;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: none;
+  border-radius: .5em .5em 0 0;
+  -webkit-box-shadow: 0 .15em white inset;
+  box-shadow: 0 .15em white inset;
+  -webkit-transform: perspective(0.5em) rotateX(5deg);
+  transform: perspective(0.5em) rotateX(5deg);
+  -webkit-transform-origin: bottom;
+  -ms-transform-origin: bottom;
+  transform-origin: bottom; }

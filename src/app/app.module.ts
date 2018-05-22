@@ -18,6 +18,7 @@ import { FlexibleEllipseComponent } from './shapes/flexible-ellipse/flexible-ell
 import { ParallelogramComponent } from './shapes/parallelogram/parallelogram.component';
 import { DiamondImageComponent } from './shapes/diamond-image/diamond-image.component';
 import { CutoutCornersComponent } from './shapes/cutout-corners/cutout-corners.component';
+import { TrapezoidTabsComponent } from './shapes/trapezoid-tabs/trapezoid-tabs.component';
 
 
 
@@ -38,6 +39,7 @@ import { CutoutCornersComponent } from './shapes/cutout-corners/cutout-corners.c
     ParallelogramComponent,
     DiamondImageComponent,
     CutoutCornersComponent,
+    TrapezoidTabsComponent,
   
 
   ],
