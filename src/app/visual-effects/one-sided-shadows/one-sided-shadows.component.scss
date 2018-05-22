@@ -1,0 +1,42 @@
+@import '../../shared/grids.scss';
+
+.main {
+    @include main-grid;
+    grid-gap: 1em;
+}
+
+.one-side {
+    width: 10em;
+    height: 5em;
+    margin: 1em auto;
+    background: #fb3;
+    box-shadow: 0 5px 4px -4px black; //blur radius opposite blur value
+}
+
+.two-adjacent {
+    width: 10em;
+    height: 5em;
+    margin: 1em auto;
+    background: #de4;   
+    box-shadow: 3px 3px 6px -3px black; //blur radius opposite half of blur value
+}
+
+.two-opposite-horizontal {
+    width: 10em;
+    height: 5em;
+    margin: 1em auto;
+    background: #aa3;   
+    box-shadow: 
+        5px 0 5px -5px black,
+        -5px 0 5px -5px black;
+}
+
+.two-opposite-vertical {
+    width: 10em;
+    height: 5em;
+    margin: 1em auto;
+    background: pink;   
+    box-shadow: 
+        0 5px 5px -5px black,
+        0 -5px 5px -5px black;
+}

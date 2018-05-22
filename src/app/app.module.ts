@@ -19,6 +19,8 @@ import { ParallelogramComponent } from './shapes/parallelogram/parallelogram.com
 import { DiamondImageComponent } from './shapes/diamond-image/diamond-image.component';
 import { CutoutCornersComponent } from './shapes/cutout-corners/cutout-corners.component';
 import { TrapezoidTabsComponent } from './shapes/trapezoid-tabs/trapezoid-tabs.component';
+import { VisualEffectsComponent } from './visual-effects/visual-effects.component';
+import { OneSidedShadowsComponent } from './visual-effects/one-sided-shadows/one-sided-shadows.component';
 
 
 
@@ -40,6 +42,8 @@ import { TrapezoidTabsComponent } from './shapes/trapezoid-tabs/trapezoid-tabs.c
     DiamondImageComponent,
     CutoutCornersComponent,
     TrapezoidTabsComponent,
+    VisualEffectsComponent,
+    OneSidedShadowsComponent,
   
 
   ],
