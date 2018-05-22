@@ -1,0 +1,13 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+.corner-cutout {
+  height: 5em;
+  background: #58a;
+  background: -webkit-linear-gradient(315deg, transparent 15px, #58a 0) top left, -webkit-linear-gradient(225deg, transparent 15px, #58a 0) top right, -webkit-linear-gradient(135deg, transparent 15px, #58a 0) bottom right, -webkit-linear-gradient(45deg, transparent 15px, #58a 0) bottom left;
+  background: -o-linear-gradient(315deg, transparent 15px, #58a 0) top left, -o-linear-gradient(225deg, transparent 15px, #58a 0) top right, -o-linear-gradient(135deg, transparent 15px, #58a 0) bottom right, -o-linear-gradient(45deg, transparent 15px, #58a 0) bottom left;
+  background: linear-gradient(135deg, transparent 15px, #58a 0) top left, linear-gradient(225deg, transparent 15px, #58a 0) top right, linear-gradient(-45deg, transparent 15px, #58a 0) bottom right, linear-gradient(45deg, transparent 15px, #58a 0) bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat; }

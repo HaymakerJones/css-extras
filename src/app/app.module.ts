@@ -17,6 +17,8 @@ import { ShapesComponent } from './shapes/shapes.component';
 import { FlexibleEllipseComponent } from './shapes/flexible-ellipse/flexible-ellipse.component';
 import { ParallelogramComponent } from './shapes/parallelogram/parallelogram.component';
 import { DiamondImageComponent } from './shapes/diamond-image/diamond-image.component';
+import { CutoutCornersComponent } from './shapes/cutout-corners/cutout-corners.component';
+
 
 
 
@@ -35,6 +37,8 @@ import { DiamondImageComponent } from './shapes/diamond-image/diamond-image.comp
     FlexibleEllipseComponent,
     ParallelogramComponent,
     DiamondImageComponent,
+    CutoutCornersComponent,
+  
 
   ],
   imports: [

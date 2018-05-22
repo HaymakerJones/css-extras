@@ -1,0 +1,11 @@
+@import '../../shared/grids.scss';
+@import '../../shared/backgrounds.scss';
+
+.main {
+    @include main-grid;
+} 
+
+.corner-cutout {
+    height: 5em;
+    @include beveled-corners( #58a, 15px, 15px );
+}
