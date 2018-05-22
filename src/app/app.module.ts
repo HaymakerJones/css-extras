@@ -21,6 +21,7 @@ import { CutoutCornersComponent } from './shapes/cutout-corners/cutout-corners.c
 import { TrapezoidTabsComponent } from './shapes/trapezoid-tabs/trapezoid-tabs.component';
 import { VisualEffectsComponent } from './visual-effects/visual-effects.component';
 import { OneSidedShadowsComponent } from './visual-effects/one-sided-shadows/one-sided-shadows.component';
+import { ColorTintingComponent } from './visual-effects/color-tinting/color-tinting.component';
 
 
 
@@ -44,6 +45,7 @@ import { OneSidedShadowsComponent } from './visual-effects/one-sided-shadows/one
     TrapezoidTabsComponent,
     VisualEffectsComponent,
     OneSidedShadowsComponent,
+    ColorTintingComponent,
   
 
   ],

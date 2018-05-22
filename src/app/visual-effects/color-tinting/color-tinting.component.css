@@ -1,0 +1,38 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+.dog-filter img {
+  width: 20em;
+  height: 20em;
+  -webkit-transition: .5s filter;
+  -o-transition: .5s filter;
+  transition: .5s filter;
+  -webkit-filter: sepia() saturate(4) hue-rotate(295deg);
+  filter: sepia() saturate(4) hue-rotate(295deg); }
+
+.dog-filter img:hover, .dog-filter img:focus {
+  -webkit-filter: none;
+  filter: none; }
+
+a {
+  background: #ff006a; }
+  a img {
+    height: 20em;
+    width: 20em;
+    mix-blend-mode: luminosity; }
+
+.dog-blend {
+  background-image: url("/assets/images/dog.jpg");
+  width: 20em;
+  height: 20em;
+  background-size: cover;
+  background-color: #ff006a;
+  background-blend-mode: luminosity;
+  -webkit-transition: .5s background-color;
+  -o-transition: .5s background-color;
+  transition: .5s background-color; }
+
+.dog-blend:hover {
+  background-color: transparent; }

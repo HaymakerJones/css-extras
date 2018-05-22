@@ -1,0 +1,42 @@
+@import '../../shared/grids.scss';
+
+.main {
+    @include main-grid;
+}
+
+.dog-filter {
+    img {
+        width: 20em;
+        height: 20em;
+        transition: .5s filter;
+        filter: sepia() saturate(4) hue-rotate(295deg);
+    }
+    
+    img:hover, img:focus {
+        filter: none;
+    }
+}   
+
+a {
+    background: hsl( 335, 100%, 50% );
+    img {
+        height: 20em;
+        width: 20em;
+        mix-blend-mode: luminosity;
+    }
+}
+
+.dog-blend {
+    background-image: url('/assets/images/dog.jpg');
+    width: 20em;
+    height: 20em;
+    background-size: cover;
+    background-color: hsl( 335, 100%, 50% );
+    background-blend-mode: luminosity;
+    transition: .5s background-color;
+}
+
+.dog-blend:hover {
+    background-color: transparent;
+}
+
