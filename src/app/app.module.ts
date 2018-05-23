@@ -22,6 +22,7 @@ import { TrapezoidTabsComponent } from './shapes/trapezoid-tabs/trapezoid-tabs.c
 import { VisualEffectsComponent } from './visual-effects/visual-effects.component';
 import { OneSidedShadowsComponent } from './visual-effects/one-sided-shadows/one-sided-shadows.component';
 import { ColorTintingComponent } from './visual-effects/color-tinting/color-tinting.component';
+import { FrostedGlassComponent } from './visual-effects/frosted-glass/frosted-glass.component';
 
 
 
@@ -46,6 +47,7 @@ import { ColorTintingComponent } from './visual-effects/color-tinting/color-tint
     VisualEffectsComponent,
     OneSidedShadowsComponent,
     ColorTintingComponent,
+    FrostedGlassComponent,
   
 
   ],

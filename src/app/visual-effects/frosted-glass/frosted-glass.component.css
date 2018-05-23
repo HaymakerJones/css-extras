@@ -1,0 +1,24 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+.backdrop {
+  height: 50em;
+  background: url("/assets/images/dog.jpg") 0/cover fixed; }
+
+.foreground {
+  position: relative;
+  background: rgba(255, 255, 255, 0.3);
+  overflow: hidden; }
+
+.foreground::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+  margin: -30px; }
