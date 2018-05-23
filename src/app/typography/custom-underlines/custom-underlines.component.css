@@ -1,0 +1,12 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+.underline {
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-color: pink;
+  text-decoration-color: pink;
+  -webkit-text-decoration-style: wavy;
+  text-decoration-style: wavy; }

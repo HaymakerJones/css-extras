@@ -1,0 +1,11 @@
+@import '../../shared/grids.scss';
+
+.main {
+    @include main-grid;
+}
+
+.underline {
+    text-decoration-line: underline;
+    text-decoration-color: pink;
+    text-decoration-style: wavy;
+}

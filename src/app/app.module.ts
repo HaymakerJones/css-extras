@@ -25,6 +25,9 @@ import { ColorTintingComponent } from './visual-effects/color-tinting/color-tint
 import { FrostedGlassComponent } from './visual-effects/frosted-glass/frosted-glass.component';
 import { TypographyComponent } from './typography/typography.component';
 import { HyphenationComponent } from './typography/hyphenation/hyphenation.component';
+import { CustomUnderlinesComponent } from './typography/custom-underlines/custom-underlines.component';
+
+
 
 
 
@@ -52,7 +55,8 @@ import { HyphenationComponent } from './typography/hyphenation/hyphenation.compo
     FrostedGlassComponent,
     TypographyComponent,
     HyphenationComponent,
-  
+    CustomUnderlinesComponent,
+
 
   ],
   imports: [
