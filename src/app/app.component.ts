@@ -10,6 +10,7 @@ export class AppComponent {
   navItems = [
     { label: 'Backgrounds', path: '/backgrounds' },
     { label: 'Shapes', path: '/shapes' },
-    { label: 'Visual Effects', path: '/visual-effects' }
+    { label: 'Visual Effects', path: '/visual-effects' },
+    { label: 'Typography', path: '/typography' }
   ];
 }

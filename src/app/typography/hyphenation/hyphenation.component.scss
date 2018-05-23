@@ -1,0 +1,11 @@
+@import '../../shared/grids.scss';
+
+.main {
+    @include main-grid;
+}
+
+.quote-container {
+    width: 15em;
+    hyphens: auto;
+    font-size: 1.5em;
+}

@@ -23,6 +23,8 @@ import { VisualEffectsComponent } from './visual-effects/visual-effects.componen
 import { OneSidedShadowsComponent } from './visual-effects/one-sided-shadows/one-sided-shadows.component';
 import { ColorTintingComponent } from './visual-effects/color-tinting/color-tinting.component';
 import { FrostedGlassComponent } from './visual-effects/frosted-glass/frosted-glass.component';
+import { TypographyComponent } from './typography/typography.component';
+import { HyphenationComponent } from './typography/hyphenation/hyphenation.component';
 
 
 
@@ -48,6 +50,8 @@ import { FrostedGlassComponent } from './visual-effects/frosted-glass/frosted-gl
     OneSidedShadowsComponent,
     ColorTintingComponent,
     FrostedGlassComponent,
+    TypographyComponent,
+    HyphenationComponent,
   
 
   ],

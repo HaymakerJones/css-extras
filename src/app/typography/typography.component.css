@@ -1,0 +1,5 @@
+.main {
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }

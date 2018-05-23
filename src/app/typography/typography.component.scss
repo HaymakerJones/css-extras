@@ -1,0 +1,6 @@
+@import '../shared/grids.scss';
+
+.main {
+    margin-top: 3em;
+    @include main-grid;
+}
