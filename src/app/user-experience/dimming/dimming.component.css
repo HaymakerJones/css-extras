@@ -1,0 +1,25 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: minmax(200px, auto);
+  justify-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.lightbox {
+  z-index: 1;
+  width: 20em;
+  height: 10em;
+  background: white; }

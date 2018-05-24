@@ -1,0 +1,23 @@
+@import '../shared/grids.scss';
+
+.main {
+    margin-top: 3em;
+    @include main-grid;
+}
+
+@function text-retro( $color: black, $depth: 6 ) {
+    $shadows: (1px 1px $color,  );
+
+    @for $i from 2 through $depth {
+        $shadows: append( $shadows, ($i*1px)  ($i*1px) $color, comma );
+    } 
+
+    @return $shadows;
+}
+
+.retro {
+    padding: 0.5em;
+    color: white;
+    background: lightcoral;
+    text-shadow: text-retro();
+}

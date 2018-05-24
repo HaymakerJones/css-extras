@@ -27,6 +27,8 @@ import { TypographyComponent } from './typography/typography.component';
 import { HyphenationComponent } from './typography/hyphenation/hyphenation.component';
 import { CustomUnderlinesComponent } from './typography/custom-underlines/custom-underlines.component';
 import { TextEffectsComponent } from './typography/text-effects/text-effects.component';
+import { UserExperienceComponent } from './user-experience/user-experience.component';
+import { DimmingComponent } from './user-experience/dimming/dimming.component';
 
 
 
@@ -58,6 +60,8 @@ import { TextEffectsComponent } from './typography/text-effects/text-effects.com
     HyphenationComponent,
     CustomUnderlinesComponent,
     TextEffectsComponent,
+    UserExperienceComponent,
+    DimmingComponent,
 
 
   ],
