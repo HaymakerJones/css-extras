@@ -26,6 +26,7 @@ import { FrostedGlassComponent } from './visual-effects/frosted-glass/frosted-gl
 import { TypographyComponent } from './typography/typography.component';
 import { HyphenationComponent } from './typography/hyphenation/hyphenation.component';
 import { CustomUnderlinesComponent } from './typography/custom-underlines/custom-underlines.component';
+import { TextEffectsComponent } from './typography/text-effects/text-effects.component';
 
 
 
@@ -56,6 +57,7 @@ import { CustomUnderlinesComponent } from './typography/custom-underlines/custom
     TypographyComponent,
     HyphenationComponent,
     CustomUnderlinesComponent,
+    TextEffectsComponent,
 
 
   ],

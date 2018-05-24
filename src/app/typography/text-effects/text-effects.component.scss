@@ -1,0 +1,57 @@
+@import '../../shared/grids.scss';
+
+.main {
+    @include main-grid;
+}
+
+.glow {
+    background: #203;
+    color: #ffc;
+    text-shadow: 0 0 0.1em, 0 0 0.3em;
+}
+
+a {
+    background: #203;
+    color: white;
+    transition: 1s;
+}
+
+a:hover {
+    color: transparent;
+    text-shadow: 0 0 .1em white, 0 0 .3em white;
+}
+
+@mixin text-3d( $color:white, $depth: 5 ) {
+    $shadows: ();
+    $shadow-color: $color;
+
+    @for $i from 1 through $depth {
+        $shadow-color: darken( $shadow-color, 10% );
+        $shadows: apend(
+            $shadows, 0 ($i * 1px) $shadow-color, comma
+        );
+    }
+
+    color: $color;
+    text-shadow: append(
+        $shadows, 0 ($depth * 1px) 10px black, comma
+    );
+}
+
+h4 { @include text-3d(#eee, 4); }
+
+@function text-retro( $color: black, $depth: 6 ) {
+    $shadows: (1px 1px $color,  );
+
+    @for $i from 2 through $depth {
+        $shadows: append( $shadows, ($i*1px)  ($i*1px) $color, comma );
+    } 
+
+    @return $shadows;
+}
+
+.retro {
+    color: white;
+    background: hsl( 0, 50%, 45% );
+    text-shadow: text-retro();
+}
