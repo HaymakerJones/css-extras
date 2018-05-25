@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DimmingComponent implements OnInit {
 
+  show = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  toggleShow() {
+    this.show = !this.show;
   }
 
 }

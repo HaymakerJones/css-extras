@@ -1,6 +1,13 @@
 <div class="main">
   <h1>Emphasizing Dimming</h1>
-  <div class="overlay">
-    <div class="card lightbox">Some content</div>
+  <button type="button" class="btn btn-primary" (click)="toggleShow()">Show Overlay</button>
+  <div class="overlay" *ngIf="show">
+    <div class="card lightbox">
+      <div class="card-header">Lightbox Card</div>
+      <div class="card-body">Some Content</div>
+      <div class="main card-footer">
+        <button type="buttton" class="btn btn-primary btn-sm" (click)="toggleShow()">Close</button>
+      </div>
+    </div>
   </div>
 </div>

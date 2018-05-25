@@ -29,6 +29,7 @@ import { CustomUnderlinesComponent } from './typography/custom-underlines/custom
 import { TextEffectsComponent } from './typography/text-effects/text-effects.component';
 import { UserExperienceComponent } from './user-experience/user-experience.component';
 import { DimmingComponent } from './user-experience/dimming/dimming.component';
+import { ScrollingComponent } from './user-experience/scrolling/scrolling.component';
 
 
 
@@ -62,6 +63,7 @@ import { DimmingComponent } from './user-experience/dimming/dimming.component';
     TextEffectsComponent,
     UserExperienceComponent,
     DimmingComponent,
+    ScrollingComponent,
 
 
   ],

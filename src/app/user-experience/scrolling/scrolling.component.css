@@ -1,0 +1,17 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+.item-list {
+  overflow: auto;
+  width: 15em;
+  height: 8em;
+  border: 1px solid silver;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, white), to(transparent)), radial-gradient(at 50% 0, rgba(0, 0, 0, 0.2), transparent 70%);
+  background: -webkit-linear-gradient(white 30%, transparent), -webkit-radial-gradient(at 50% 0, rgba(0, 0, 0, 0.2), transparent 70%);
+  background: -o-linear-gradient(white 30%, transparent), -o-radial-gradient(at 50% 0, rgba(0, 0, 0, 0.2), transparent 70%);
+  background: linear-gradient(white 30%, transparent), radial-gradient(at 50% 0, rgba(0, 0, 0, 0.2), transparent 70%);
+  background-attachment: local, scroll;
+  background-size: 100% 50px, 100% 15px;
+  background-repeat: no-repeat; }
