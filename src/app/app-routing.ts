@@ -6,6 +6,7 @@ import { ShapesComponent } from './shapes/shapes.component';
 import { VisualEffectsComponent } from './visual-effects/visual-effects.component';
 import { TypographyComponent } from './typography/typography.component';
 import { UserExperienceComponent } from './user-experience/user-experience.component';
+import { StructureAndLayoutComponent } from './structure-and-layout/structure-and-layout.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,8 @@ const routes: Routes = [
     { path: 'shapes', component: ShapesComponent },
     { path: 'visual-effects', component: VisualEffectsComponent },
     { path: 'typography', component: TypographyComponent },
-    { path: 'user-experience', component: UserExperienceComponent }
+    { path: 'user-experience', component: UserExperienceComponent },
+    { path: 'structure-layout', component: StructureAndLayoutComponent }
 ];
 
 @NgModule({

@@ -1,0 +1,11 @@
+.main {
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+  .main h1 {
+    background: -webkit-gradient(linear, left top, left bottom, from(blue), to(green));
+    background: -webkit-linear-gradient(blue, green);
+    background: -o-linear-gradient(blue, green);
+    background: linear-gradient(blue, green);
+    color: white; }

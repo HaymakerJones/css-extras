@@ -12,6 +12,7 @@ export class AppComponent {
     { label: 'Shapes', path: '/shapes' },
     { label: 'Visual Effects', path: '/visual-effects' },
     { label: 'Typography', path: '/typography' },
-    { label: "User Experience", path: '/user-experience' }
+    { label: "User Experience", path: '/user-experience' },
+    { label: "Structure and Layout", path: '/structure-layout' },
   ];
 }

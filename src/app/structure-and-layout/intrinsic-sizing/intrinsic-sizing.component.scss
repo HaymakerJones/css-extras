@@ -1,0 +1,15 @@
+@import '../../shared/grids.scss';
+
+.main {
+    @include main-grid;
+}
+
+figure {
+    max-width: 300px;       //fallback for older browsers
+    max-width: min-content;
+    margin: auto;
+
+    img {
+        max-width: inherit;
+    }
+}

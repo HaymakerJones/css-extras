@@ -31,11 +31,8 @@ import { UserExperienceComponent } from './user-experience/user-experience.compo
 import { DimmingComponent } from './user-experience/dimming/dimming.component';
 import { ScrollingComponent } from './user-experience/scrolling/scrolling.component';
 import { ImageCompareComponent } from './user-experience/image-compare/image-compare.component';
-
-
-
-
-
+import { StructureAndLayoutComponent } from './structure-and-layout/structure-and-layout.component';
+import { IntrinsicSizingComponent } from './structure-and-layout/intrinsic-sizing/intrinsic-sizing.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +63,8 @@ import { ImageCompareComponent } from './user-experience/image-compare/image-com
     DimmingComponent,
     ScrollingComponent,
     ImageCompareComponent,
+    StructureAndLayoutComponent,
+    IntrinsicSizingComponent,
 
 
   ],
