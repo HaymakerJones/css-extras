@@ -30,6 +30,7 @@ import { TextEffectsComponent } from './typography/text-effects/text-effects.com
 import { UserExperienceComponent } from './user-experience/user-experience.component';
 import { DimmingComponent } from './user-experience/dimming/dimming.component';
 import { ScrollingComponent } from './user-experience/scrolling/scrolling.component';
+import { ImageCompareComponent } from './user-experience/image-compare/image-compare.component';
 
 
 
@@ -64,6 +65,7 @@ import { ScrollingComponent } from './user-experience/scrolling/scrolling.compon
     UserExperienceComponent,
     DimmingComponent,
     ScrollingComponent,
+    ImageCompareComponent,
 
 
   ],
