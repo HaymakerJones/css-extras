@@ -33,6 +33,7 @@ import { ScrollingComponent } from './user-experience/scrolling/scrolling.compon
 import { ImageCompareComponent } from './user-experience/image-compare/image-compare.component';
 import { StructureAndLayoutComponent } from './structure-and-layout/structure-and-layout.component';
 import { IntrinsicSizingComponent } from './structure-and-layout/intrinsic-sizing/intrinsic-sizing.component';
+import { TableColumnWidthsComponent } from './structure-and-layout/table-column-widths/table-column-widths.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { IntrinsicSizingComponent } from './structure-and-layout/intrinsic-sizin
     ImageCompareComponent,
     StructureAndLayoutComponent,
     IntrinsicSizingComponent,
+    TableColumnWidthsComponent,
 
 
   ],

@@ -13,3 +13,9 @@ figure {
         max-width: inherit;
     }
 }
+
+.test {
+    @include main-grid;
+    justify-items: center;
+    align-items: center; 
+}

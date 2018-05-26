@@ -1,0 +1,19 @@
+@import '../../shared/grids.scss';
+
+.main {
+    @include main-grid;
+    background: #ddd;
+}
+
+section {
+	width: 500px;
+	margin: 2em;
+	background: white;
+}
+
+table {
+    border-collapse: collapse;
+	margin-bottom: 1em;
+    width: 100%;
+    table-layout: fixed;
+}
