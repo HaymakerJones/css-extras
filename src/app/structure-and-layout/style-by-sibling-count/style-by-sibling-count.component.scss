@@ -1,0 +1,47 @@
+@import '../../shared/grids.scss';
+
+.main {
+    @include main-grid;
+}
+
+//Selecting by specific sibling count
+@mixin n-items($n) {
+    &:first-child:nth-child(#{$n}),
+    &:first-child:nth-child(#{$n}) ~ & {
+        //Targets items if the list contains a specified number
+        @content;
+    }
+}
+
+//Selecting by a range of sibling count
+@mixin less-n-items($n) {
+    //Targets all items if the list is greater than n
+    &:first-child:nth-last-child( n + #{$n} ),
+    &:first-child:nth-last-child( n + #{$n} ) ~ & {
+        @content;
+    }
+}
+
+@mixin greater-n-items($n) {
+    //Targets all items if the list is less than n
+    &:first-child:nth-last-child( -n + #{$n} ),
+    &:first-child:nth-last-child( -n + #{$n} ) ~ & {
+        @content;
+    }
+}
+
+@mixin between-n-items($start, $end) {
+    //Targets all items if the list is between start and end
+    &:first-child:nth-last-child( n + #{$start} ):nth-last-child( -n + #{$end} ),
+    &:first-child:nth-last-child( n + #{$start} ):nth-last-child( -n + #{$end} ) ~ & {
+        @content;
+    }
+}
+
+li {
+    @include less-n-items(4) {
+        background: pink;
+    }
+    //@include greater-n-items(4);
+    //@include between-n-items(2, 6);
+}
