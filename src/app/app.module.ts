@@ -35,6 +35,8 @@ import { StructureAndLayoutComponent } from './structure-and-layout/structure-an
 import { IntrinsicSizingComponent } from './structure-and-layout/intrinsic-sizing/intrinsic-sizing.component';
 import { TableColumnWidthsComponent } from './structure-and-layout/table-column-widths/table-column-widths.component';
 import { StyleBySiblingCountComponent } from './structure-and-layout/style-by-sibling-count/style-by-sibling-count.component';
+import { AnimationsComponent } from './animations/animations.component';
+import { ElasticTransitionsComponent } from './animations/elastic-transitions/elastic-transitions.component';
 
 @NgModule({
   declarations: [
@@ -69,6 +71,8 @@ import { StyleBySiblingCountComponent } from './structure-and-layout/style-by-si
     IntrinsicSizingComponent,
     TableColumnWidthsComponent,
     StyleBySiblingCountComponent,
+    AnimationsComponent,
+    ElasticTransitionsComponent,
 
 
   ],

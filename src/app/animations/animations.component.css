@@ -1,0 +1,11 @@
+.main {
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+.main-header {
+  background: -webkit-gradient(linear, left top, left bottom, from(blue), to(orange));
+  background: -webkit-linear-gradient(blue, orange);
+  background: -o-linear-gradient(blue, orange);
+  background: linear-gradient(blue, orange); }

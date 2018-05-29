@@ -1,0 +1,92 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+@-webkit-keyframes bounce {
+  60%, 80%, to {
+    -webkit-transform: translateY(400px);
+    transform: translateY(400px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  70% {
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px); }
+  90% {
+    -webkit-transform: translateY(360px);
+    transform: translateY(360px); } }
+
+@keyframes bounce {
+  60%, 80%, to {
+    -webkit-transform: translateY(400px);
+    transform: translateY(400px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  70% {
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px); }
+  90% {
+    -webkit-transform: translateY(360px);
+    transform: translateY(360px); } }
+
+.ball {
+  background: orange;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  -webkit-animation: bounce 3s ease-in;
+  animation: bounce 3s ease-in; }
+
+input:not(:focus) + .callout:not(:hover) {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .25s transform;
+  -o-transition: .25s transform;
+  transition: .25s transform; }
+
+.callout {
+  -webkit-transition: 0.5s cubic-bezier(0.25, 0.1, 0.3, 1.5) -webkit-transform;
+  transition: 0.5s cubic-bezier(0.25, 0.1, 0.3, 1.5) -webkit-transform;
+  -o-transition: 0.5s cubic-bezier(0.25, 0.1, 0.3, 1.5) transform;
+  transition: 0.5s cubic-bezier(0.25, 0.1, 0.3, 1.5) transform;
+  transition: 0.5s cubic-bezier(0.25, 0.1, 0.3, 1.5) transform, 0.5s cubic-bezier(0.25, 0.1, 0.3, 1.5) -webkit-transform;
+  -webkit-transform-origin: 1.4em -.4em;
+  -ms-transform-origin: 1.4em -.4em;
+  transform-origin: 1.4em -.4em; }
+
+/* Styling */
+body {
+  padding: 1.5em;
+  font: 200%/1.6 Baskerville; }
+
+input {
+  display: block;
+  padding: 0 .4em;
+  font: inherit; }
+
+.callout {
+  position: absolute;
+  max-width: 14em;
+  padding: .6em .8em;
+  border-radius: .3em;
+  margin: .3em 0 0 -.2em;
+  background: #fed;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0.05em 0.2em 0.6em rgba(0, 0, 0, 0.2);
+  box-shadow: 0.05em 0.2em 0.6em rgba(0, 0, 0, 0.2);
+  font-size: 75%; }
+
+.callout:before {
+  content: "";
+  position: absolute;
+  top: -.4em;
+  left: 1em;
+  padding: .35em;
+  background: inherit;
+  border: inherit;
+  border-right: 0;
+  border-bottom: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
