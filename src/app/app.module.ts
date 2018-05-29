@@ -37,6 +37,7 @@ import { TableColumnWidthsComponent } from './structure-and-layout/table-column-
 import { StyleBySiblingCountComponent } from './structure-and-layout/style-by-sibling-count/style-by-sibling-count.component';
 import { AnimationsComponent } from './animations/animations.component';
 import { ElasticTransitionsComponent } from './animations/elastic-transitions/elastic-transitions.component';
+import { TypingAnimationComponent } from './animations/typing-animation/typing-animation.component';
 
 @NgModule({
   declarations: [
@@ -73,6 +74,8 @@ import { ElasticTransitionsComponent } from './animations/elastic-transitions/el
     StyleBySiblingCountComponent,
     AnimationsComponent,
     ElasticTransitionsComponent,
+    TypingAnimationComponent,
+
 
 
   ],
