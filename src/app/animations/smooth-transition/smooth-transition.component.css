@@ -1,0 +1,26 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); }
+
+@-webkit-keyframes panoramic {
+  to {
+    background-position: 100% 0; } }
+
+@keyframes panoramic {
+  to {
+    background-position: 100% 0; } }
+
+.panoramic {
+  width: 200px;
+  height: 200px;
+  background: url("/assets/images/panorama.jpeg");
+  background-size: auto 100%;
+  -webkit-animation: panoramic 10s linear infinite alternate;
+  animation: panoramic 10s linear infinite alternate;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused; }
+
+.panoramic:hover, .panoramic:focus {
+  -webkit-animation-play-state: running;
+  animation-play-state: running; }

@@ -38,6 +38,7 @@ import { StyleBySiblingCountComponent } from './structure-and-layout/style-by-si
 import { AnimationsComponent } from './animations/animations.component';
 import { ElasticTransitionsComponent } from './animations/elastic-transitions/elastic-transitions.component';
 import { TypingAnimationComponent } from './animations/typing-animation/typing-animation.component';
+import { SmoothTransitionComponent } from './animations/smooth-transition/smooth-transition.component';
 
 @NgModule({
   declarations: [
@@ -75,6 +76,7 @@ import { TypingAnimationComponent } from './animations/typing-animation/typing-a
     AnimationsComponent,
     ElasticTransitionsComponent,
     TypingAnimationComponent,
+    SmoothTransitionComponent,
 
 
 
