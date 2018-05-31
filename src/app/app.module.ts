@@ -39,6 +39,8 @@ import { AnimationsComponent } from './animations/animations.component';
 import { ElasticTransitionsComponent } from './animations/elastic-transitions/elastic-transitions.component';
 import { TypingAnimationComponent } from './animations/typing-animation/typing-animation.component';
 import { SmoothTransitionComponent } from './animations/smooth-transition/smooth-transition.component';
+import { CircularPathComponent } from './animations/circular-path/circular-path.component';
+
 
 @NgModule({
   declarations: [
@@ -77,6 +79,7 @@ import { SmoothTransitionComponent } from './animations/smooth-transition/smooth
     ElasticTransitionsComponent,
     TypingAnimationComponent,
     SmoothTransitionComponent,
+    CircularPathComponent,
 
 
 

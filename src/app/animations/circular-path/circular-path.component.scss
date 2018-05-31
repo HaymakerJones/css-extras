@@ -1,0 +1,57 @@
+@import '../../shared/grids.scss';
+
+.main {
+    @include main-grid;
+}
+
+.path {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background: orange;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.avatar {
+    animation: spin 3s infinite linear;
+    transform-origin: 50% 150px;
+}
+
+.avatar > img {
+    height: 70px;
+    width: auto;
+    animation: inherit;
+    animation-direction: reverse;
+}
+
+@keyframes new-spin {
+    from {
+        transform: rotate(0turn)
+                    translateY(-150px) translateY(50%)
+                    rotate(1turn);
+    }
+    to {
+        transform: rotate(1turn)
+        translateY(-150px) translateY(50%)
+        rotate(0turn);
+    }
+}
+
+.new-path {
+    width: 300px; height: 300px;
+	padding: 20px;
+	margin: 100px auto;
+	border-radius: 50%;
+}
+
+.new-avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    animation: new-spin 3s infinite linear;
+}
