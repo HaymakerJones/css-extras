@@ -8,6 +8,7 @@ import { TypographyComponent } from './typography/typography.component';
 import { UserExperienceComponent } from './user-experience/user-experience.component';
 import { StructureAndLayoutComponent } from './structure-and-layout/structure-and-layout.component';
 import { AnimationsComponent } from './animations/animations.component';
+import { GridComponent } from './grid/grid.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
     { path: 'typography', component: TypographyComponent },
     { path: 'user-experience', component: UserExperienceComponent },
     { path: 'structure-layout', component: StructureAndLayoutComponent },
-    { path: 'animations', component: AnimationsComponent }
+    { path: 'animations', component: AnimationsComponent },
+    { path: 'grid', component: GridComponent }
 ];
 
 @NgModule({

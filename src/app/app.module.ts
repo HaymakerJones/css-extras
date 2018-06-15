@@ -40,6 +40,7 @@ import { ElasticTransitionsComponent } from './animations/elastic-transitions/el
 import { TypingAnimationComponent } from './animations/typing-animation/typing-animation.component';
 import { SmoothTransitionComponent } from './animations/smooth-transition/smooth-transition.component';
 import { CircularPathComponent } from './animations/circular-path/circular-path.component';
+import { GridComponent } from './grid/grid.component';
 
 
 @NgModule({
@@ -80,6 +81,7 @@ import { CircularPathComponent } from './animations/circular-path/circular-path.
     TypingAnimationComponent,
     SmoothTransitionComponent,
     CircularPathComponent,
+    GridComponent,
 
 
 

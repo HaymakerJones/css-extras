@@ -1,0 +1,21 @@
+.wrapper {
+    margin-top: 3em;
+}
+
+.media-object {
+    width: 500px;
+    border: solid 2px black;
+    display: grid;
+    grid-template-columns: fit-content(250px) 1fr;
+}
+
+.autoFit {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax( 200px, 1fr ) );
+
+    div {
+        width: 150px;
+        height: 150px;
+        border: solid 1px black;
+    }
+}
