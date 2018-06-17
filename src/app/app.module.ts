@@ -43,6 +43,7 @@ import { CircularPathComponent } from './animations/circular-path/circular-path.
 import { GridComponent } from './grid/grid.component';
 import { PsuedoComponent } from './psuedo/psuedo.component';
 import { TransitionsComponent } from './transitions/transitions.component';
+import { FlexComponent } from './flex/flex.component';
 
 
 @NgModule({
@@ -86,6 +87,7 @@ import { TransitionsComponent } from './transitions/transitions.component';
     GridComponent,
     PsuedoComponent,
     TransitionsComponent,
+    FlexComponent,
 
 
 

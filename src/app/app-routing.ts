@@ -11,6 +11,7 @@ import { AnimationsComponent } from './animations/animations.component';
 import { GridComponent } from './grid/grid.component';
 import { PsuedoComponent } from './psuedo/psuedo.component';
 import { TransitionsComponent } from './transitions/transitions.component';
+import { FlexComponent } from './flex/flex.component';
 
 
 const routes: Routes = [
@@ -24,7 +25,8 @@ const routes: Routes = [
     { path: 'animations', component: AnimationsComponent },
     { path: 'grid', component: GridComponent },
     { path: 'pseudo', component: PsuedoComponent },
-    { path: 'transitions', component: TransitionsComponent }
+    { path: 'transitions', component: TransitionsComponent },
+    { path: 'flex', component: FlexComponent }
 ];
 
 @NgModule({
