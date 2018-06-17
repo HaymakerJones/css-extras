@@ -1,0 +1,147 @@
+.wrapper {
+  margin-top: 4em; }
+
+.box {
+  width: 300px;
+  height: 300px;
+  background: #3DCCC7;
+  margin: 1em;
+  -webkit-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-property: background, -webkit-transform;
+  transition-property: background, -webkit-transform;
+  -o-transition-property: background, transform;
+  transition-property: background, transform;
+  transition-property: background, transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  transition-delay: 200ms; }
+  .box:hover {
+    background: #EF6B6B;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 2em auto; }
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  -webkit-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2); }
+
+.card-header {
+  background-image: url("/assets/images/background2.jpg");
+  background-size: cover;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  padding: 25px;
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: top 300ms ease-out, left 300ms ease-out, bottom 300ms ease-out, right 300ms ease-out;
+  -o-transition: top 300ms ease-out, left 300ms ease-out, bottom 300ms ease-out, right 300ms ease-out;
+  transition: top 300ms ease-out, left 300ms ease-out, bottom 300ms ease-out, right 300ms ease-out; }
+  .card-header:hover {
+    top: 25px;
+    bottom: 25px;
+    left: 25px;
+    right: 25px; }
+
+.card-title {
+  font-weight: 300;
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 0.9;
+  position: absolute;
+  top: 25px;
+  left: 25px; }
+
+.card-button-more, .card-button-less {
+  background: rgba(255, 255, 255, 0.8);
+  padding: .5em 1.25em;
+  border: 0;
+  font-weight: 300;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: .8rem;
+  margin-top: auto; }
+
+.card-button-more:focus,
+.card-button-less:focus,
+.card-button-more:hover,
+.card-button-less:hover {
+  outline: none;
+  background: white; }
+
+.card-button-more {
+  -webkit-transition-delay: 500ms, 0ms;
+  -o-transition-delay: 500ms, 0ms;
+  transition-delay: 500ms, 0ms; }
+
+.card-button-less {
+  margin-left: auto;
+  -webkit-transform: translateX(120%);
+  -ms-transform: translateX(120%);
+  transform: translateX(120%); }
+
+.card-content {
+  position: relative;
+  top: 50%;
+  padding: 25px;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.card-header.card-open {
+  bottom: 50%;
+  left: 25px;
+  right: 25px;
+  top: 25px; }
+
+.card-button-more.card-open {
+  -webkit-transform: translateY(300%);
+  -ms-transform: translateY(300%);
+  transform: translateY(300%);
+  -webkit-transition-delay: 0ms;
+  -o-transition-delay: 0ms;
+  transition-delay: 0ms; }
+
+.card-button-less.card-open {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition-delay: 500ms, 0ms;
+  -o-transition-delay: 500ms, 0ms;
+  transition-delay: 500ms, 0ms; }

@@ -1,0 +1,120 @@
+.wrapper {
+    margin-top: 4em;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background: #3DCCC7;
+    margin: 1em;
+    transition-duration: 250ms;
+    transition-property: background, transform;
+    transition-timing-function: ease-in;
+    transition-delay: 200ms;
+
+    &:hover {
+        background: #EF6B6B;
+        transform: rotate(45deg);
+    }
+}
+
+.card-wrapper {
+    display: flex;
+    width: 90%;
+    margin: 2em auto;
+ }
+
+.card-container {
+    display: flex;
+    background: white;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    box-shadow: 10px 10px 25px rgba(black, .20);
+}
+
+.card-header {
+    background-image: url( '/assets/images/background2.jpg' );
+    background-size: cover;
+    position: absolute;
+    z-index: 10;
+    top: 0; bottom: 0; left: 0; right: 0;
+    overflow: hidden;
+    padding: 25px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0, .75);
+    display: flex;  
+    transition: top 300ms ease-out,
+    left 300ms ease-out,
+    bottom 300ms ease-out,
+    right 300ms ease-out,;
+
+    &:hover {
+        top: 25px; bottom: 25px; left: 25px; right: 25px;
+    }
+}
+
+.card-title {
+    font-weight: 300;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 0.9;
+    position: absolute;
+    top: 25px; left: 25px;
+}
+
+.card-button-more, .card-button-less {
+    background: rgba(255,255,255, .8);
+    padding: .5em 1.25em;
+    border: 0;
+    font-weight: 300;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-top: auto;
+}
+
+.card-button-more:focus,
+.card-button-less:focus,
+.card-button-more:hover,
+.card-button-less:hover {
+  outline: none;
+  background: white;
+}
+
+.card-button-more {
+    transition-delay: 500ms, 0ms;
+}
+
+.card-button-less {
+    margin-left: auto;
+    transform: translateX(120%);
+}
+
+.card-content {
+    position: relative;
+    top: 50%;
+    padding: 25px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-header.card-open {
+    bottom: 50%;
+    left: 25px;
+    right: 25px;
+    top: 25px;
+  }
+
+.card-button-more.card-open {
+    transform: translateY(300%);
+    transition-delay: 0ms;
+  }
+
+.card-button-less.card-open {
+    transform: translateX(0);
+    transition-delay: 500ms, 0ms;
+  }

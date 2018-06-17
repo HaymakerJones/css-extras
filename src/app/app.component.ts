@@ -17,5 +17,6 @@ export class AppComponent {
     { label: 'Transitions and Animations', path: '/animations' },
     { label: 'CSS Grid', path: '/grid' },
     { label: 'Pseudo Elements', path: '/pseudo' },
+    { label: 'Transitions', path: '/transitions' }
   ];
 }

@@ -1,3 +1,20 @@
-<p>
-  transitions works!
-</p>
+<div class="wrapper">
+  <h1>Transitions</h1>
+  <div class="box"></div>
+
+  <div class="card-wrapper">
+    <div class="card-container">
+      <div class="card-header" [class.card-open]="state">
+        <h3 clas="card-title">Some header content</h3>
+        <button type="button" class="card-button-more" [class.card-open]="state" (click)="toggle()">More Information</button>
+        <button type="button" class="card-button-less" [class.card-open]="state" (click)="toggle()">Less Information</button>
+      </div>
+      <div class="card-content">
+        <div class="card-body">
+          <h3>Some random content</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

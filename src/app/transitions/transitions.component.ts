@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TransitionsComponent implements OnInit {
 
+  state = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  toggle() {
+    this.state = !this.state;
+    console.log(this.state);
   }
 
 }
