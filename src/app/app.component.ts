@@ -16,5 +16,6 @@ export class AppComponent {
     { label: "Structure and Layout", path: '/structure-layout' },
     { label: 'Transitions and Animations', path: '/animations' },
     { label: 'CSS Grid', path: '/grid' },
+    { label: 'Pseudo Elements', path: '/pseudo' },
   ];
 }

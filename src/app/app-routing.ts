@@ -9,6 +9,7 @@ import { UserExperienceComponent } from './user-experience/user-experience.compo
 import { StructureAndLayoutComponent } from './structure-and-layout/structure-and-layout.component';
 import { AnimationsComponent } from './animations/animations.component';
 import { GridComponent } from './grid/grid.component';
+import { PsuedoComponent } from './psuedo/psuedo.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,8 @@ const routes: Routes = [
     { path: 'user-experience', component: UserExperienceComponent },
     { path: 'structure-layout', component: StructureAndLayoutComponent },
     { path: 'animations', component: AnimationsComponent },
-    { path: 'grid', component: GridComponent }
+    { path: 'grid', component: GridComponent },
+    { path: 'pseudo', component: PsuedoComponent }
 ];
 
 @NgModule({

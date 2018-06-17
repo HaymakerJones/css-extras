@@ -41,6 +41,8 @@ import { TypingAnimationComponent } from './animations/typing-animation/typing-a
 import { SmoothTransitionComponent } from './animations/smooth-transition/smooth-transition.component';
 import { CircularPathComponent } from './animations/circular-path/circular-path.component';
 import { GridComponent } from './grid/grid.component';
+import { PsuedoComponent } from './psuedo/psuedo.component';
+import { TransitionsComponent } from './transitions/transitions.component';
 
 
 @NgModule({
@@ -82,6 +84,8 @@ import { GridComponent } from './grid/grid.component';
     SmoothTransitionComponent,
     CircularPathComponent,
     GridComponent,
+    PsuedoComponent,
+    TransitionsComponent,
 
 
 
