@@ -1,0 +1,36 @@
+.wrapper {
+    margin-top: 4em;
+}
+
+.container-1 {
+    background: pink;
+    width: 50vw;
+    height: 50vh;
+    padding: 0.5em;
+    margin: 25vh auto 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    //flex-flow: row||column wrap||no-wrap is an alternate syntax
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    background: lightblue;
+    margin: 0.5em; 
+}
+
+.container-2 {
+    background: lightblue;
+    width: 50vw;
+    height: 50vh;
+    padding: 0.5em;
+    margin: 25vh auto 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
