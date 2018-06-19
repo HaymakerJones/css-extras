@@ -44,6 +44,7 @@ import { GridComponent } from './grid/grid.component';
 import { PsuedoComponent } from './psuedo/psuedo.component';
 import { TransitionsComponent } from './transitions/transitions.component';
 import { FlexComponent } from './flex/flex.component';
+import { BoxShadowComponent } from './box-shadow/box-shadow.component';
 
 
 @NgModule({
@@ -88,6 +89,7 @@ import { FlexComponent } from './flex/flex.component';
     PsuedoComponent,
     TransitionsComponent,
     FlexComponent,
+    BoxShadowComponent,
 
 
 

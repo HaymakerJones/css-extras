@@ -12,6 +12,7 @@ import { GridComponent } from './grid/grid.component';
 import { PsuedoComponent } from './psuedo/psuedo.component';
 import { TransitionsComponent } from './transitions/transitions.component';
 import { FlexComponent } from './flex/flex.component';
+import { BoxShadowComponent } from './box-shadow/box-shadow.component';
 
 
 const routes: Routes = [
@@ -26,7 +27,8 @@ const routes: Routes = [
     { path: 'grid', component: GridComponent },
     { path: 'pseudo', component: PsuedoComponent },
     { path: 'transitions', component: TransitionsComponent },
-    { path: 'flex', component: FlexComponent }
+    { path: 'flex', component: FlexComponent },
+    { path: 'box-shadow', component: BoxShadowComponent }
 ];
 
 @NgModule({

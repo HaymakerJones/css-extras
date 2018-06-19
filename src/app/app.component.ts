@@ -18,6 +18,7 @@ export class AppComponent {
     { label: 'CSS Grid', path: '/grid' },
     { label: 'Pseudo Elements', path: '/pseudo' },
     { label: 'Transitions', path: '/transitions' },
-    { label: 'Flex', path: '/flex' }
+    { label: 'Flex', path: '/flex' },
+    { label: 'Box Shadows', path: '/box-shadow' },
   ];
 }
