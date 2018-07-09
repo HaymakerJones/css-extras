@@ -34,3 +34,36 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.demo2 {
+    background: pink;
+    width: 100vw;
+    height: 100vh;
+    padding: 0.5em;
+    margin: 25vh auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+    * {
+        background: skyblue;
+        margin: 1em;
+    }
+}
+
+
+.one {
+    flex:1 1 250px;
+    order: 3;
+}
+
+.two {
+    flex:1 1 250px;
+    align-self: center;
+    order: 2;
+}
+
+.three {
+    flex:1 1 250px;
+    order: -1;
+}
