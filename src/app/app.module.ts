@@ -45,6 +45,7 @@ import { PsuedoComponent } from './psuedo/psuedo.component';
 import { TransitionsComponent } from './transitions/transitions.component';
 import { FlexComponent } from './flex/flex.component';
 import { BoxShadowComponent } from './box-shadow/box-shadow.component';
+import { TextBackgroundImageComponent } from './typography/text-background-image/text-background-image.component';
 
 
 @NgModule({
@@ -90,6 +91,7 @@ import { BoxShadowComponent } from './box-shadow/box-shadow.component';
     TransitionsComponent,
     FlexComponent,
     BoxShadowComponent,
+    TextBackgroundImageComponent,
 
 
 
