@@ -13,6 +13,7 @@ import { PsuedoComponent } from './psuedo/psuedo.component';
 import { TransitionsComponent } from './transitions/transitions.component';
 import { FlexComponent } from './flex/flex.component';
 import { BoxShadowComponent } from './box-shadow/box-shadow.component';
+import { SelectorsComponent } from './selectors/selectors.component';
 
 
 const routes: Routes = [
@@ -28,7 +29,8 @@ const routes: Routes = [
     { path: 'pseudo', component: PsuedoComponent },
     { path: 'transitions', component: TransitionsComponent },
     { path: 'flex', component: FlexComponent },
-    { path: 'box-shadow', component: BoxShadowComponent }
+    { path: 'box-shadow', component: BoxShadowComponent },
+    { path: 'selectors', component: SelectorsComponent }
 ];
 
 @NgModule({

@@ -20,5 +20,6 @@ export class AppComponent {
     { label: 'Transitions', path: '/transitions' },
     { label: 'Flex', path: '/flex' },
     { label: 'Box Shadows', path: '/box-shadow' },
+    { label: 'Advanced Selectors', path: '/selectors' },
   ];
 }

@@ -46,6 +46,7 @@ import { TransitionsComponent } from './transitions/transitions.component';
 import { FlexComponent } from './flex/flex.component';
 import { BoxShadowComponent } from './box-shadow/box-shadow.component';
 import { TextBackgroundImageComponent } from './typography/text-background-image/text-background-image.component';
+import { SelectorsComponent } from './selectors/selectors.component';
 
 
 @NgModule({
@@ -92,6 +93,7 @@ import { TextBackgroundImageComponent } from './typography/text-background-image
     FlexComponent,
     BoxShadowComponent,
     TextBackgroundImageComponent,
+    SelectorsComponent,
 
 
 
