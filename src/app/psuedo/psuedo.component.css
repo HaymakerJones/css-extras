@@ -103,3 +103,28 @@
 
 .card-content:hover .card-text {
   opacity: 1; }
+
+.item-list {
+  counter-reset: list-counter; }
+
+.item {
+  position: relative;
+  padding: 1em; }
+  .item::before {
+    counter-increment: list-counter;
+    content: counter(list-counter);
+    position: absolute;
+    left: 45%;
+    background: red;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }

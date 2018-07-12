@@ -95,3 +95,26 @@
 .card-content:hover .card-text {
     opacity: 1;
 }
+
+.item-list {
+    counter-reset: list-counter;
+}
+
+.item {
+    position: relative;
+    padding: 1em;
+
+    &::before {
+        counter-increment: list-counter;
+        content: counter( list-counter );
+        position: absolute;
+        left: 45%;
+        background: red;
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
